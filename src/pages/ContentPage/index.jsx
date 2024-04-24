@@ -44,7 +44,7 @@ const ContentPage = ({ archiveTitle, section, hide}) => {
         
       {/* Muestra el contenido si se encontró la URL correspondiente */}
       {url && (
-                <div className="h-full w-11/12 mb-2 overflow-auto">
+                <div className="h-full w-11/12 mb-2 overflow-y-auto">
                    <object data={url} type="application/pdf" width="100%" height="90%">
                     </object>
                 </div>
