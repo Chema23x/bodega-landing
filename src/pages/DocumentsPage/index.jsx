@@ -42,7 +42,7 @@ const DocumentsPage = () =>{
                  bgImage={"assets/bgImages/bgline.png"}
                 />
              <div className="hidden md:flex md:flex-col md:w-11/12 md:items-center md:mt-5">
-                {comics.map(archiveTitle => (
+                {pdfs.map(archiveTitle => (
                     <Archives 
                         key={archiveTitle}
                         icon={"assets/icons/bookIcon.png"}
@@ -54,7 +54,7 @@ const DocumentsPage = () =>{
                 ))}
             </div> 
             <div className="flex flex-col w-11/12 items-center mt-5 md:hidden">
-                {comics.map(archiveTitle => (
+                {pdfs.map(archiveTitle => (
                     <Archives 
                         key={archiveTitle}
                         icon={"assets/icons/bookIcon.png"}
