@@ -41,18 +41,30 @@ const DocumentsPage = () =>{
                  textClassname="text-end w-full text-xs md:text-2xl lg:text-3xl md:text-center absolute top-10 md:top-7 right-6"
                  bgImage={"assets/bgImages/bgline.png"}
                 />
-            <div className="flex flex-col w-11/12 items-center mt-5">
-                {pdfs.map(archiveTitle => (
+             <div className="hidden md:flex md:flex-col md:w-11/12 md:items-center md:mt-5">
+                {comics.map(archiveTitle => (
                     <Archives 
                         key={archiveTitle}
-                        icon={"assets/icons/pdfIcon.png"}
+                        icon={"assets/icons/bookIcon.png"}
                         pdfAlt={"pdfIcon"} 
                         archivetitle={archiveTitle} 
                         onClick={() => handlePdfClick(archiveTitle)}
                         downloadArchive={() => findUrl(archiveTitle)}
                     />
                 ))}
-            </div>  
+            </div> 
+            <div className="flex flex-col w-11/12 items-center mt-5 md:hidden">
+                {comics.map(archiveTitle => (
+                    <Archives 
+                        key={archiveTitle}
+                        icon={"assets/icons/bookIcon.png"}
+                        pdfAlt={"pdfIcon"} 
+                        archivetitle={archiveTitle} 
+                        onClick={() => findUrl(archiveTitle)}
+                        downloadArchive={() => findUrl(archiveTitle)}
+                    />
+                ))}
+            </div>    
             </div> 
 
         </section>
