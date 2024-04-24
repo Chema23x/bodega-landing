@@ -13,6 +13,18 @@ const ComicsPage = () =>{
     const [selectedComic, setSelectedComic] = useState(null);
     const [file] = useState(keys[2])
     
+    useEffect(() => {
+        const handleResize = () => {
+            setIsLargeScreen(window.innerWidth > 768);
+        };
+
+        window.addEventListener('resize', handleResize);
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     const handlePdfClick = (archiveTitle) => {
         setSelectedComic(archiveTitle);
     };
