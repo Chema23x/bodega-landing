@@ -14,11 +14,9 @@ const Archives = ({ icon, pdfAlt, archivetitle, onClick, downloadArchive }) => {
 
             <div className="flex justify-evenly md:justify-end md:gap-10 items-center w-1/4">
                 <div>
-                    <Link href={"#"}>
                         <button onClick={onClick}>
                             <img className='w-[25px]' src="assets/icons/viewIcon.png" alt="viewIcon.png" />
                         </button>
-                    </Link>
                 </div>
                 <div>
                     <button

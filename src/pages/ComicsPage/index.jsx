@@ -17,6 +17,8 @@ const ComicsPage = () =>{
         setSelectedComic(archiveTitle);
     };
 
+    const isLargeScreen = width > 768;
+
     return (
     <> 
         <section className={`${selectedComic === null ? "h-screen w-screen relative" : "hidden"}`}>
@@ -40,14 +42,14 @@ const ComicsPage = () =>{
                 />
             <div className="flex flex-col w-11/12 items-center mt-5">
                 {comics.map(archiveTitle => (
-                    <Archives 
-                        key={archiveTitle}
-                        icon={"assets/icons/bookIcon.png"}
-                        pdfAlt={"pdfIcon"} 
-                        archivetitle={archiveTitle} 
-                        onClick={() => handlePdfClick(archiveTitle)}
-                        downloadArchive={() => findUrl(archiveTitle)}
-                    />
+                        <Archives 
+                            key={archiveTitle}
+                            icon={"assets/icons/bookIcon.png"}
+                            pdfAlt={"pdfIcon"} 
+                            archivetitle={archiveTitle} 
+                            onClick={isLargeScreen ? () => handlePdfClick(archiveTitle) : () => findUrl(archiveTitle)}
+                            downloadArchive={() => findUrl(archiveTitle)}
+                        />
                 ))}
             </div>    
             </div>
