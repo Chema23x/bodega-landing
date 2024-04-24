@@ -11,13 +11,13 @@ import { findUrl } from "@/utils/functions";
 const ComicsPage = () =>{
 
     const [selectedComic, setSelectedComic] = useState(null);
-    const [file, setFile] = useState(keys[2])
+    const [file] = useState(keys[2])
     
     const handlePdfClick = (archiveTitle) => {
         setSelectedComic(archiveTitle);
     };
 
-    const isLargeScreen = width > 768;
+    const isLargeScreen = window.innerWidth  > 768;
 
     return (
     <> 
