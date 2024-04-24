@@ -12,7 +12,7 @@ const LoginPage = () => {
     
   <section className="h-screen w-screen flex flex-col gap-4">
     <div className="flex justify-center items-center w-full h-1/6 lg:mt-2">
-        <img className="w-3/12 md:w-3/12 lg:w-[300px] bg-lime-500 rounded-md px-4" src="assets/bgImages/bodegaLogo.png" alt="Logo Bodega" />
+        <img className="w-7/12 md:w-3/12 lg:w-[300px] bg-lime-500 rounded-md px-4" src="assets/bgImages/bodegaLogo.png" alt="Logo Bodega" />
     </div>
     <div className="flex flex-col items-center justify-start h-full w-full gap-4 md:gap-7">
         <FrameFullWidth 
