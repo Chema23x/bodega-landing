@@ -12,7 +12,7 @@ const LoginPage = () => {
     return(
      <>   
     
-        <section className="h-screen w-screen flex flex-col md:gap-4">
+        <section className="h-screen w-full flex flex-col md:gap-4">
             <header className="flex justify-center items-center w-full h-[90px] md:h-1/6 lg:mt-2">
                 <Image width={600} className="px-5" src={Logo}/>
             </header>

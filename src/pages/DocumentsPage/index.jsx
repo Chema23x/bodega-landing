@@ -21,7 +21,7 @@ const DocumentsPage = () =>{
     
     return (
      <>   
-        <section className={`${selectedPdf === null ? "h-screen w-screen relative" : "hidden"}`}>
+        <section className={`${selectedPdf === null ? "h-screen w-full relative" : "hidden"}`}>
             <div className="flex w-full items-center my-5">
                 <Arrow
                     currentPage={"Documentos"}
