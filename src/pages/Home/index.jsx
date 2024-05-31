@@ -1,8 +1,10 @@
 
 // import CustomizedProgressBar from "@/components/circularProgress";
-import FrameFullWidth from "@/components/frameFullWidth/frameFullWith";
-import OptionFrame from "@/components/optionFrame/optionFrame";
-import { components } from "@/utils/constants";
+import FrameFullWidth from "@/components/frameFullWidth/frameFullWith"
+import Image from "next/image"
+import Logo from "../../assets/imgs/bodega_logo.png"
+import OptionFrame from "@/components/optionFrame/optionFrame"
+import { components } from "@/utils/constants"
 
 const LoginPage = () => {
 
@@ -12,12 +14,12 @@ const LoginPage = () => {
     
         <section className="h-screen w-screen flex flex-col md:gap-4">
             <header className="flex justify-center items-center w-full h-[90px] md:h-1/6 lg:mt-2">
-                <img className="w-7/12 md:w-3/12 lg:w-[300px] bg-lime-500 rounded-md px-4" src="assets/bgImages/bodegaLogo.png" alt="Logo Bodega" />
+                <Image width={600} className="px-5" src={Logo}/>
             </header>
             <div className="flex flex-col items-center justify-start h-full w-full gap-4 md:gap-7">
                 <FrameFullWidth 
                     titleFrameFull={"¡Sorprendente!"} 
-                    textFrameFull={"PDF, imagenes, videos e historietas"}
+                    textFrameFull={"PDF, imagenes y videos"}
                     imageSource={"assets/hoodies/hoodiePage2.png"}
                     imageAlt={"hoodie page 2"}
                     textClassname="text-end md:text-center w-10/12 text-xs md:text-2xl mr-5"
@@ -66,10 +68,10 @@ const LoginPage = () => {
                         </div>
                     
                             <OptionFrame 
-                                icon={"assets/icons/bookIcon.png"} 
+                                icon={""} 
                                 altIcon={"icono book"}
-                                iconText={"Historietas"}
-                                linkTo={"/ComicsPage"}
+                                iconText={"Distritos y Tiendas TOP"}
+                                linkTo={"/TopStoresPage"}
                                 iconClassName={"h-3/6 absolute top-[25%] right-[5%]"}
                             />
                 
