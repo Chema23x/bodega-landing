@@ -41,13 +41,17 @@ export const videos = [
 export const pages = {
     Documentos: "/documentsPage",
     Imagenes: "/imagesPage",
-    Historietas: "/comicsPage",
+    Distritos_y_tiendas_TOP: "/comicsPage",
     Videos: "/videosPage"
-};
+}
+// Función para formatear las claves
+function formatPageName(name) {
+    return name.replace(/_/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
+}
 
 //Keys
 
-export const keys = Object.keys(pages)
+export const keys = Object.keys(pages).map(key => formatPageName(key));
 
 
 //Urls
