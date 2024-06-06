@@ -46,7 +46,7 @@ const LoginPage = () => {
                                 icon={"assets/icons/pdfIcon.png"} 
                                 altIcon={"icono pdf"}
                                 iconText={"Documentos"}
-                                linkTo={"/DocumentsPage"}
+                                linkTo={"/Documentos"}
                                 iconClassName={"h-[90px] absolute top-[20%] left-[38%]"}
                         />
                     </div>
@@ -56,14 +56,14 @@ const LoginPage = () => {
                                 icon={"assets/icons/imageIcon.png"} 
                                 altIcon={"icono imagen"} 
                                 iconText={"Imagenes"}
-                                linkTo={"/ImagesPage"}
+                                linkTo={"/Imagenes"}
                                 iconClassName={"h-2/6 absolute top-[20%] right-[10%]"}
                             />
                             <OptionFrame 
                                 icon={"assets/icons/videosIcon.png"} 
                                 altIcon={"icono video"} 
                                 iconText={"Videos"}
-                                linkTo={"/VideosPage"}
+                                linkTo={"/Videos"}
                                 iconClassName={"h-2/6 absolute top-[20%] right-[10%]"}
                             />
                         </div>
@@ -72,7 +72,7 @@ const LoginPage = () => {
                                 icon={""} 
                                 altIcon={"icono book"}
                                 iconText={"Distritos y Tiendas TOP"}
-                                linkTo={"/TopStoresPage"}
+                                linkTo={"/Distritos_top"}
                                 iconClassName={"h-3/6 absolute top-[25%] right-[5%]"}
                             />
                 

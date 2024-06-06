@@ -38,10 +38,10 @@ export const videos = [
 //Pages
 
 export const pages = {
-    Documentos: "/documentsPage",
-    Imagenes: "/imagesPage",
-    Distritos_y_tiendas_TOP: "/comicsPage",
-    Videos: "/videosPage"
+    Documentos: "/Documentos",
+    Imagenes: "/Imagenes",
+    Distritos_y_tiendas_TOP: "/Distritos_top",
+    Videos: "/Videos"
 }
 // Función para formatear las claves
 function formatPageName(name) {
@@ -70,11 +70,11 @@ export const Urls = [
     "/assets/topStores/Tiendas TOP en venta ($).png",
     "/assets/topStores/Distritos TOP.png",
     "/assets/images/TU GUÍA GARANTÍA EXTENDIDA.pdf",
-    "/assets/images/FALLAS COMUNES PANTALLAS.png",
-    "/assets/images/ELEGIBLES.png",
-    "/assets/images/ELEGIBLES CEL.png",
-    "/assets/images/BENEFICIOS.png",
-    "/assets/images/ACCIDENTES COMUNES CELULARES Y TABLETS.png",
+    "/assets/images/FALLAS COMUNES PANTALLAS.pdf",
+    "/assets/images/ELEGIBLES.pdf",
+    "/assets/images/ELEGIBLES CEL.pdf",
+    "/assets/images/BENEFICIOS.pdf",
+    "/assets/images/ACCIDENTES COMUNES CELULARES Y TABLETS.pdf",
     
 ]
 
@@ -90,8 +90,8 @@ export const Urls = [
 // Generar OptionsFrames
 
 export const components = [
-    {icon: "assets/icons/pdfIcon.png", altIcon: "icono pdf", iconText:"Documentos",linkTo: "/DocumentsPage"},
-    {icon: "assets/icons/imageIcon.png",altIcon:"icono imagen", iconText:"Imagenes",linkTo:"/ImagesPage"},
-    {icon: "assets/icons/videosIcon.png",altIcon:"icono video",iconText:"Videos",linkTo:"/VideosPage"},
-    {icon: "assets/icons/bookIcon.png",altIcon:"icono book", iconText:"Historietas",linkTo:"/ComicsPage"}
+    {icon: "assets/icons/pdfIcon.png", altIcon: "icono pdf", iconText:"Documentos",linkTo: "/Documentos"},
+    {icon: "assets/icons/imageIcon.png",altIcon:"icono imagen", iconText:"Imagenes",linkTo:"/Imagenes"},
+    {icon: "assets/icons/videosIcon.png",altIcon:"icono video",iconText:"Videos",linkTo:"/Videos"},
+    {icon: "",altIcon:"icono book", iconText:"Historietas",linkTo:"/Historietas"}
 ]
