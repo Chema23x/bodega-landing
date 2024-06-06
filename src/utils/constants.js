@@ -1,7 +1,6 @@
 // Pdfs
 export const pdfs = [
     "Preciador BA MB Oct 23",
-    "Garantía Extendida Pago de Incentivos 2023",
     "Contrato BA Planes Protección 2023",
     "Bitácora de Garantía Extendida"   
 ]
@@ -57,7 +56,6 @@ export const keys = Object.keys(pages).map(key => formatPageName(key));
 
 export const Urls = [
     "/assets/pdfs/PreciadorBAMBOct23.pdf",
-    "/assets/pdfs/GarantiaExtendidaPagodeIncentivos2023.pdf",
     "/assets/pdfs/ContratoBAPlanesProteccion2023.pdf",
     "/assets/pdfs/Bitácora de Garantía Extendida.pdf",
     "/assets/videos/VideoCategoriaPantallas.mp4",
