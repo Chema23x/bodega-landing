@@ -53,6 +53,21 @@ const TopStoresPage = () =>{
             </div>
         </section>
         {selectedImg && <ContentPage archiveTitle={selectedImg} section={file}  hide={() => handlePdfClick(null)}/>}
+       <footer className="w-full flex justify-center mb-10 ">
+        <div className="border-4 border-black w-10/12 p-6 font-semibold">
+            <h2>Podrás solicitar reportes de ventas, aclaraciones, dudas, material POP, Contratos, herramientas de apoyo, capacitaciones,etc</h2>
+            <h3 className="font-bold">Luz Ramírez</h3>
+            <p>Luzmaría.ramirezneri@walmart.com
+                <br />
+                Cel. 56 5108 2396
+            </p>
+            <h3 className="font-bold">Yesenia Serrano</h3>
+            <p>Yesenia.serrano@walmart.com
+                <br />
+                Cel. 56 5106 5818
+            </p>
+        </div>
+       </footer>
     </>
     )
 }
