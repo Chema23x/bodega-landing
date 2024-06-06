@@ -20,7 +20,7 @@ const LoadingPage = () =>{
              <img className="h-4/6 w-full absolute" src="assets/bgImages/loginBg.png" alt="fondo" />
              <div className="flex flex-col justify-start h-full w-full gap-10">
                  <div className="flex justify-center items-center z-10 h-1/6 w-full relative">  
-                     <img className="w-7/12 md:w-7/12 lg:w-4/12 absolute top-10 lg:top-15 xl:left-[500px] 2xl:left-[600px]" src="assets/bgImages/bodegaLogo.png" alt="Logo Bodega" />
+                     <img className="w-7/12 md:w-7/12 lg:w-4/12 absolute top-10 lg:top-15 xl:left-[500px]" src="assets/bgImages/bodegaLogo.png" alt="Logo Bodega" />
                  </div>
                  <div className="flex justify-center items-center z-10 h-4/6 w-full">   
                      <Image className="animation" src={Hero} alt="hoodie inicio" width={280} height={250} />

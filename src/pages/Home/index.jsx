@@ -5,6 +5,7 @@ import Image from "next/image"
 import Logo from "../../assets/imgs/bodega_logo.png"
 import OptionFrame from "@/components/optionFrame/optionFrame"
 import { components } from "@/utils/constants"
+import Hero from "../../assets/gifs/sudadera_bodega.gif"
 
 const LoginPage = () => {
 
@@ -17,11 +18,11 @@ const LoginPage = () => {
                 <Image width={600} className="px-5" src={Logo}/>
             </header>
             <div className="flex flex-col items-center justify-start h-full w-full gap-4 md:gap-7">
-                <FrameFullWidth 
+            <FrameFullWidth 
                     titleFrameFull={"¡Sorprendente!"} 
-                    textFrameFull={"PDF, imagenes y videos"}
-                    imageSource={"assets/hoodies/hoodiePage2.png"}
-                    imageAlt={"hoodie page 2"}
+                    textFrameFull={"PDF, imagenes, videos e historietas"}
+                    imageSource={Hero}
+                    imageAlt={"Hero"}
                     textClassname="text-end md:text-center w-10/12 text-xs md:text-2xl mr-5"
                     bgImage={""} 
                 />

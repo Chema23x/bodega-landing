@@ -9,13 +9,12 @@ export const pdfs = [
 //Images
 
 export const imgs = [
-    "TU GUÍA GARANTÍA EXTENDIDA",
-    "PAGO DE INCENTIVOS",
-    "FALLAS COMUNES PANTALLAS",
-    "ELEGIBLES",
-    "ELEGIBLES CEL",
-    "BENEFICIOS",
-    "ACCIDENTES COMUNES CELULARES Y TABLETS"
+    "Tu guía garantía extendida",
+    "Fallas comunes pantallas",
+    "Elegibles",
+    "Elegibles Cel",
+    "Beneficios",
+    "Accidentes comunes celulares y tablets"
 ]
 
 
@@ -30,10 +29,10 @@ export const topStores = [
 //Videos
 export const videos = [
     "Video General",
-    "Video 2 Pantallas",
-    "Video 3 Línea Blanca",
-    "Video 4 Electrónicos",
-    "Video 5 Telefonía"
+    "Video Categoría Pantallas",
+    "Video Categoría Línea Blanca",
+    "Video Categoría Electrónicos y Electrodomésticos",
+    "Video Categoría Telefonía"
 ]
 
 //Pages
@@ -61,17 +60,16 @@ export const Urls = [
     "/assets/pdfs/GarantiaExtendidaPagodeIncentivos2023.pdf",
     "/assets/pdfs/ContratoBAPlanesProteccion2023.pdf",
     "/assets/pdfs/Bitácora de Garantía Extendida.pdf",
-    "/assets/videos/Video2Pantallas.mp4",
-    "/assets/videos/Video3LineaBlanca.mp4",
-    "/assets/videos/Video4Electronicos.mp4",
-    "/assets/videos/Video5Telefonia.mp4",
+    "/assets/videos/VideoCategoriaPantallas.mp4",
+    "/assets/videos/VideoCategoriaLineaBlanca.mp4",
+    "/assets/videos/VideoCategoriaElectronicosyElectrodomesticos.mp4",
+    "/assets/videos/VideoCategoriaTelefonia.mp4",
     "/assets/videos/VideoGeneral.mp4",
     "/assets/topStores/Tiendas TOP en venta de Garantías Extendidas.png",
     "/assets/topStores/Tiendas TOP en Conversión.png",
     "/assets/topStores/Tiendas TOP en venta ($).png",
     "/assets/topStores/Distritos TOP.png",
-    "/assets/images/TU GUÍA GARANTÍA EXTENDIDA.png",
-    "/assets/images/PAGO DE INCENTIVOS.png",
+    "/assets/images/TU GUÍA GARANTÍA EXTENDIDA.pdf",
     "/assets/images/FALLAS COMUNES PANTALLAS.png",
     "/assets/images/ELEGIBLES.png",
     "/assets/images/ELEGIBLES CEL.png",
